@@ -8,6 +8,14 @@
 __pycache__/
 *.pyc
 
-# Conda environments (do not commit env folders)
-.env/
+# Data (do not commit datasets)
+data/raw/
+data/processed/
+
+# Env files and secrets
+.env
+*.key
+*.pem
+
+# Conda/venv folders (if you ever create them locally)
 .venv/
